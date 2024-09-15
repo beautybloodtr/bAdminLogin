@@ -1,0 +1,13 @@
+name: bAdminLogin
+version: '1.0-SNAPSHOT'
+main: net.mineking.beautybloodtr.bAdminLogin.BAdminLogin
+api-version: '1.20'
+author:
+  - BeautyBloodTR
+  - aiCapone
+softdepend: [AuthMe]
+commands:
+  badminlogin:
+    description: "Şifre doğrulama komutu"
+    usage: "/badminlogin <password>"
+    permission: "badminlogin.use"

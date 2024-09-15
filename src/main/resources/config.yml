@@ -1,0 +1,15 @@
+discord:
+  bot-token: ""
+  activity:
+    enabled: true
+    activity: "PLAYING" # LISTENING, PLAYING, WATCHING
+    activityStatus: "Better than !AdminLogin?"
+ingame:
+  permission:
+    add: "badminlogin.add" # Kullanıcı eklemek için gereken izin
+    setpassword: "badminlogin.setpassword" # Şifre güncellemek için gereken izin
+    changepassword: "badminlogin.changepassword" # Oyuncunun kendi şifresini değiştirmek için gereken izin
+    setdiscord: "badminlogin.setdiscord" # Discord ID güncellemek için gereken izin
+    remove: "badminlogin.remove" # Kullanıcıyı veritabanından silmek için gereken izin
+  database:
+    name: "bAdminLogin.db"
